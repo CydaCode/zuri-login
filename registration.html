@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Register</title>
+</head>
+<body>
+     <!-- Start of header Section -->
+     <header class="container">
+        <Nav class="menulist">
+            <h1>TiaCode</h1>
+            <ul >
+                <li><a href="/zuri-login/login.html" class="btn margtop">Log In</a></li>
+            </ul>
+        </Nav>
+    </header>
+    <!-- End of header Section -->
+
+    <!-- Start of Form -->
+    <div class="reg-form-width">
+        <form action="/zuri-login/login.html" >
+            <div class="register-form">
+                <h2>Create an Account</h2>
+                <div class="1 input-align">
+                    <div class="flex">
+                        <label for="firstname" name="firstname" >First Name <span>*</span></label>
+                        <input type="text" class="firstname" required>
+                    </div>
+                    <div class="flex">
+                        <label for="lastname" name='lastname'>Last Name  <span>*</span></label>
+                        <input type="text" class="lastname" required>
+                    </div>
+                </div>
+                <div class="2 input-align ">
+                    <div class="flex">
+                        <label for="email" name="email" >Email  <span>*</span></label>
+                        <input type="email" class="email" required>
+                    </div>
+                    <div class="flex">
+                        <label for="password" name='password'>Password  <span>*</span></label>
+                        <input type="password" class="password" required>
+                    </div>
+                </div>
+                <div class="3 input-align ">
+                    <div class="flex">
+                        <label for="confirmpassword" name='confirmpassword'>Confirm Password  <span>*</span></label>
+                        <input type="password" class="confirmpassword" required>
+                    </div>
+                    <div class="flex">
+                        <label for="tel" name="tel">Phone Number  <span>*</span></label>
+                        <input type="text" class="tel">
+                    </div>
+                </div>
+                <div class="4 input-align ">
+                    <div class="flex">
+                        <label for="gender">Gender:  <span>*</span></label>
+                        <select name="gender" id="gender" required>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="flex">
+                        <label for="state" name='state'>State/Province  <span>*</span></label>
+                        <input type="text" class="state" required>
+                    </div>
+                </div>
+                <div class="5">
+                    <div class="flex">
+                        <label for="country" name="country" >Country  <span>*</span></label>
+                        <input type="text" class="country" required>
+                    </div>
+                </div>
+                <div class="acct-already">
+                    <small>Do you have an account already? <span><a href="/zuri-login/login.html"> Log In</a></span></small>
+                </div>
+                <div class="check-b">
+                    <input type="checkbox" name="terms" id="terms">
+                    <small><label for="terms">i accept the services and everything else described in the <a href="">Privacy Policy</a> and <a href="">Terms of Service</a></label></small>
+                </div>
+                <button class="btn">Sign Up</button>
+                <div class="no-sign">
+                    <p>Don't want to sign up? <a href="/zuri-login/about.html">Click Here</a> to move Home Page</p>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- End of Form -->
+</body>
+</html>
